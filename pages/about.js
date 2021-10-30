@@ -5,7 +5,10 @@ import styles from '../styles/Home.module.css'
 export default function About() {
   return (
     <div className={styles.container}>
-      <h1>About </h1>
+      <Head>
+        <title>About</title>
+      </Head>
+      <div className={styles.green}>About </div>
     </div>
   )
 }
